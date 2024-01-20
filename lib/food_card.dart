@@ -15,8 +15,8 @@ class FoodCard extends StatelessWidget {
               Container(
                 decoration: const BoxDecoration(
                   borderRadius: BorderRadius.only(
-                    topLeft: Radius.circular(25),
-                    topRight: Radius.circular(25),
+                    topLeft: Radius.circular(12),
+                    topRight: Radius.circular(12),
                   ),
                   image: DecorationImage(
                     image: AssetImage('assets/waffle.png'),
